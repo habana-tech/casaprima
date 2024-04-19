@@ -37,7 +37,7 @@ watch(
     <header>
     <nav>
       <ul>
-        <li><NuxtLink to="/about">About</NuxtLink></li>
+        <li><NuxtLink :to="localePath('about')">About</NuxtLink></li>
         <li>
           <NuxtLink :to="localePath('index')">{{ $t('home') }}</NuxtLink>
         </li>
