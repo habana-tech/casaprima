@@ -1,36 +1,36 @@
 export default defineAppConfig({
     ui: {
-        primary: 'yellow',
-        gray: 'gray',
+        primary: 'pink',
+        gray: 'coolGray',
 
         button: {
-            default: {
-                color: 'orange',
-            },
-            primary: {
-                color: 'white',
-                backgroundColor: 'yellow',
-            },
-            secondary: {
-                color: 'white',
-                backgroundColor: 'green',
-            },
+            // default: {
+            //     color: 'orange',
+            // },
+            // primary: {
+            //     color: 'white',
+            //     backgroundColor: 'yellow',
+            // },
+            // secondary: {
+            //     color: 'white',
+            //     backgroundColor: 'green',
+            // },
         },
 
-        horizontalNavigation: {
-            default: {
-                color: 'white',
-                backgroundColor: 'blue',
-            },
-            primary: {
-                color: 'white',
-                backgroundColor: 'yellow',
-            },
-            secondary: {
-                color: 'white',
-                backgroundColor: 'green',
-            },
-        },
+        // horizontalNavigation: {
+        //     default: {
+        //         color: 'white',
+        //         backgroundColor: 'blue',
+        //     },
+        //     primary: {
+        //         color: 'white',
+        //         backgroundColor: 'yellow',
+        //     },
+        //     secondary: {
+        //         color: 'white',
+        //         backgroundColor: 'green',
+        //     },
+        // },
     },
     title: 'Casa Prima',
     theme: {

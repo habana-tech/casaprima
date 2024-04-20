@@ -3,9 +3,12 @@ import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default <Partial<Config>>{
   theme: {
+    darkMode: false,
     extend: {
 
       colors: {
+        // primary: '#5c6ac4',
+        // secondary: '#ecc94b',
         pink: {
           50: '#FFFDFD',
           100: '#FFF7F6 ',
@@ -79,17 +82,25 @@ export default <Partial<Config>>{
           400: '#9B9B9B',
           500: '#707070',
           600: '#3C3C3C',
-          700: '#000000',
-          800: '#000000',
-          900: '#000000',
-          950: '#000000'
+          700: '#3C3C3C',
+          800: '#3C3C3C',
+          900: '#3C3C3C',
+          950: '#3C3C3C'
+        },
+        coolGray: {
+          50: '#FBFBFB',
+          100: '#EFEFEF',
+          200: '#DBDBDB',
+          300: '#BFBFBF',
+          400: '#9B9B9B',
+          500: '#707070',
+          600: '#3C3C3C',
+          700: '#3C3C3C',
+          800: '#3C3C3C',
+          900: '#3C3C3C',
+          950: '#3C3C3C'
         },
       },
-    },
-
-    colors: {
-      primary: '#5c6ac4',
-      secondary: '#ecc94b',
     },
 
     fontFamily: {

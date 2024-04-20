@@ -10,22 +10,22 @@ const localePath = useLocalePath()
 </script>
 
 <template>
-  <div class="bg-red text-yellow-500">
-    <nav>
-      <ul>
-        <li>
-          <NuxtLink :to="localePath('about')">About</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink :to="localePath('index')">{{ $t('home') }}</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink :to="localePath('/')">{{ $t('home') }}</NuxtLink>
-        </li>
-      </ul>
-    </nav>
-    <AppAlert>
-      This is an auto-imported component.
-    </AppAlert>
-  </div>
-  </template>
+  <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <header class="mb-8 flex items-center justify-between border-b py-4 md:mb-12 md:py-8 xl:mb-16">
+        <!-- logo - start -->
+        <a href="/" class="inline-flex items-center gap-2.5 text-2xl font-title text-black md:text-3xl"
+          aria-label="logo">
+          <img src="/logo.svg" width="95" height="94">
+
+          Casa Prima
+        </a>
+        <!-- logo - end -->
+
+        <AppNav> </AppNav>
+
+
+      </header>
+    </div>
+    </div>
+</template>

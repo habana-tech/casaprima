@@ -1,8 +1,15 @@
 <template>
-  <div>
-    <h1>Welcome to the homepage</h1>
-    <AppAlert>
-      This is an auto-imported component
-    </AppAlert>
-  </div>
+  <AppHero />
+
+   
+  <div class="container flex font-title">
+      <UButton label="Button" />
+
+      <div>
+        <NuxtLink to="/">English</NuxtLink> |
+        <NuxtLink to="/fr">Français</NuxtLink>
+
+        <p>{{ $t('welcome') }}</p>
+      </div>
+    </div>
 </template>

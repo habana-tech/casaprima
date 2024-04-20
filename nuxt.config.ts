@@ -21,6 +21,16 @@ export default defineNuxtConfig({
       code: 'fr',
       iso: 'fr-FR',
       file: 'fr.json'
+    },
+    {
+      code: 'es',
+      iso: 'es-ES',
+      file: 'es.json'
+    },
+    {
+      code: 'de',
+      iso: 'de-GE',
+      file: 'de.json'
     }
     ],
     strategy: 'prefix_and_default', // used in URL path prefix
