@@ -34,18 +34,10 @@ watch(
 
 <template>
   <div>
-    <Header></Header>
-  
 
+    <AppHeader> </AppHeader>
 
-
-
-
-    <AppAlert>
-      This is an auto-imported component.
-    </AppAlert>
-    <!-- <NuxtWelcome /> -->
-
+   
     <div class="container flex font-title">
       <UButton label="Button" />
 
