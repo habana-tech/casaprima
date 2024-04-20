@@ -34,35 +34,19 @@ watch(
 
 <template>
   <div>
-    <header>
-    <nav>
-      <ul>
-        <li><NuxtLink :to="localePath('about')">About</NuxtLink></li>
-        <li>
-          <NuxtLink :to="localePath('index')">{{ $t('home') }}</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink :to="localePath('/')">{{ $t('home') }}</NuxtLink>
-        </li>
-
-      </ul>
-    </nav>
-
-    <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">
-    [{{ locale.name }} ({{ locale.code }})]
-  </NuxtLink> 
-  </header>
-
- 
+    <Header></Header>
   
 
 
-  <AppAlert>
+
+
+
+    <AppAlert>
       This is an auto-imported component.
     </AppAlert>
     <!-- <NuxtWelcome /> -->
 
-    <div class="container flex">
+    <div class="container flex font-title">
       <UButton label="Button" />
 
       <div>
@@ -75,13 +59,13 @@ watch(
 
     <NuxtPage />
 
-      <CookieControl>
-  <template #bar>
-    <h2>{{ $t('cookies.bar.title') }}</h2>
-    <p>{{$t('cookies.bar.text') }}</p>
-    <NuxtLink to="/privacy" class="text-primary">{{$t('cookies.bar.privacyLink') }}</NuxtLink>
-  </template>
-</CookieControl>
+    <CookieControl>
+      <template #bar>
+        <h2>{{ $t('cookies.bar.title') }}</h2>
+        <p>{{ $t('cookies.bar.text') }}</p>
+        <NuxtLink to="/privacy" class="text-primary">{{ $t('cookies.bar.privacyLink') }}</NuxtLink>
+      </template>
+    </CookieControl>
 
 
   </div>

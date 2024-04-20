@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-Medium.eot');
+    src: local('Quicksand Medium'), local('Quicksand-Medium'),
+        url('fonts/Quicksand-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Quicksand-Medium.woff2') format('woff2'),
+        url('fonts/Quicksand-Medium.woff') format('woff'),
+        url('fonts/Quicksand-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-Light.eot');
+    src: local('Quicksand Light'), local('Quicksand-Light'),
+        url('fonts/Quicksand-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Quicksand-Light.woff2') format('woff2'),
+        url('fonts/Quicksand-Light.woff') format('woff'),
+        url('fonts/Quicksand-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-Regular.eot');
+    src: local('Quicksand Regular'), local('Quicksand-Regular'),
+        url('fonts/Quicksand-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Quicksand-Regular.woff2') format('woff2'),
+        url('fonts/Quicksand-Regular.woff') format('woff'),
+        url('fonts/Quicksand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-Bold.eot');
+    src: local('Quicksand Bold'), local('Quicksand-Bold'),
+        url('fonts/Quicksand-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Quicksand-Bold.woff2') format('woff2'),
+        url('fonts/Quicksand-Bold.woff') format('woff'),
+        url('fonts/Quicksand-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ivy Mode';
+    src: url('fonts/IvyMode-Regular.eot');
+    src: local('Ivy Mode Regular'), local('IvyMode-Regular'),
+        url('fonts/IvyMode-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/IvyMode-Regular.woff2') format('woff2'),
+        url('fonts/IvyMode-Regular.woff') format('woff'),
+        url('fonts/IvyMode-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ivy Mode';
+    src: url('fonts/IvyMode-LightItalic.eot');
+    src: local('Ivy Mode Light Italic'), local('IvyMode-LightItalic'),
+        url('fonts/IvyMode-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/IvyMode-LightItalic.woff2') format('woff2'),
+        url('fonts/IvyMode-LightItalic.woff') format('woff'),
+        url('fonts/IvyMode-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ivy Mode';
+    src: url('fonts/IvyMode-SemiBoldItalic.eot');
+    src: local('Ivy Mode SemiBold Italic'), local('IvyMode-SemiBoldItalic'),
+        url('fonts/IvyMode-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/IvyMode-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/IvyMode-SemiBoldItalic.woff') format('woff'),
+        url('fonts/IvyMode-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ivy Mode';
+    src: url('fonts/IvyMode-ThinItalic.eot');
+    src: local('Ivy Mode Thin Italic'), local('IvyMode-ThinItalic'),
+        url('fonts/IvyMode-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/IvyMode-ThinItalic.woff2') format('woff2'),
+        url('fonts/IvyMode-ThinItalic.woff') format('woff'),
+        url('fonts/IvyMode-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ivy Mode';
+    src: url('fonts/IvyMode-Italic.eot');
+    src: local('Ivy Mode Italic'), local('IvyMode-Italic'),
+        url('fonts/IvyMode-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/IvyMode-Italic.woff2') format('woff2'),
+        url('fonts/IvyMode-Italic.woff') format('woff'),
+        url('fonts/IvyMode-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ivy Mode';
+    src: url('fonts/IvyMode-BoldItalic.eot');
+    src: local('Ivy Mode Bold Italic'), local('IvyMode-BoldItalic'),
+        url('fonts/IvyMode-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/IvyMode-BoldItalic.woff2') format('woff2'),
+        url('fonts/IvyMode-BoldItalic.woff') format('woff'),
+        url('fonts/IvyMode-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ivy Mode';
+    src: url('fonts/IvyMode-Bold.eot');
+    src: local('Ivy Mode Bold'), local('IvyMode-Bold'),
+        url('fonts/IvyMode-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/IvyMode-Bold.woff2') format('woff2'),
+        url('fonts/IvyMode-Bold.woff') format('woff'),
+        url('fonts/IvyMode-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ivy Mode';
+    src: url('fonts/IvyMode-Light.eot');
+    src: local('Ivy Mode Light'), local('IvyMode-Light'),
+        url('fonts/IvyMode-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/IvyMode-Light.woff2') format('woff2'),
+        url('fonts/IvyMode-Light.woff') format('woff'),
+        url('fonts/IvyMode-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ivy Mode';
+    src: url('fonts/IvyMode-Thin.eot');
+    src: local('Ivy Mode Thin'), local('IvyMode-Thin'),
+        url('fonts/IvyMode-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/IvyMode-Thin.woff2') format('woff2'),
+        url('fonts/IvyMode-Thin.woff') format('woff'),
+        url('fonts/IvyMode-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ivy Mode';
+    src: url('fonts/IvyMode-SemiBold.eot');
+    src: local('Ivy Mode SemiBold'), local('IvyMode-SemiBold'),
+        url('fonts/IvyMode-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/IvyMode-SemiBold.woff2') format('woff2'),
+        url('fonts/IvyMode-SemiBold.woff') format('woff'),
+        url('fonts/IvyMode-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+

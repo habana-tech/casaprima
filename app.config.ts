@@ -1,19 +1,39 @@
 export default defineAppConfig({
     ui: {
-        primary: 'red',
-        gray: 'cool',
+        primary: 'yellow',
+        gray: 'gray',
 
         button: {
             default: {
-                color: 'orange'
-            }
-        }
+                color: 'orange',
+            },
+            primary: {
+                color: 'white',
+                backgroundColor: 'yellow',
+            },
+            secondary: {
+                color: 'white',
+                backgroundColor: 'green',
+            },
+        },
+
+        horizontalNavigation: {
+            default: {
+                color: 'white',
+                backgroundColor: 'blue',
+            },
+            primary: {
+                color: 'white',
+                backgroundColor: 'yellow',
+            },
+            secondary: {
+                color: 'white',
+                backgroundColor: 'green',
+            },
+        },
     },
     title: 'Casa Prima',
     theme: {
-        dark: true,
-        colors: {
-            primary: '#ff0000'
-        }
-    }
+        dark: false,
+    },
 })

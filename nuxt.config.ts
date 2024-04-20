@@ -32,6 +32,8 @@ export default defineNuxtConfig({
       redirectOn: 'root' // recommended
     },
     langDir: 'locales/',
+    vueI18n: "./i18n.config.ts",
 
   },
+  css: ['~/assets/css/fonts.css']
 })
