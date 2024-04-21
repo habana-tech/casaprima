@@ -1,15 +1,15 @@
 <template>
   <AppHero />
 
-<div class=" ">
+<div class="">
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
     <div class="lg:flex lg:items-center lg:justify-between w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
         <h2 class="text-4xl text-black sm:text-5xl font-title">
             <span class="block font-extrabold">
-                Slow down
+                {{ $t('Slow down') }}
             </span>
             <span class="block text-pink-500">
-                and stay active.
+                {{ $t('and stay active') }}.
             </span>
         </h2>
         <!-- <div class="lg:mt-0 lg:flex-shrink-0">
@@ -27,7 +27,7 @@
       <div class="flex flex-col overflow-hidden rounded-lg bg-blue-300 sm:flex-row">
         <!-- content - start -->
         <div class="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-2/5">
-          <h2 class="mb-4 text-xl font-bold text-white md:text-2xl lg:text-4xl">Conécta con la naturaleza y la cultura en un entorno único</h2>
+          <h2 class="mb-4 text-xl font-bold font-title text-white md:text-2xl lg:text-4xl">Conécta con la naturaleza y la cultura en un entorno único</h2>
 
           <ul class="gap-10 mt-8 flex flex-col">
                     <li class="mt-6 lg:mt-0">
@@ -102,7 +102,7 @@
         
         <!-- content - start -->
         <div class="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-2/5">
-          <h2 class="mb-4 text-xl font-bold text-gray-700 md:text-2xl lg:text-4xl">Experimenta la vida en la finca</h2>
+          <h2 class="mb-4 text-xl font-bold font-title text-gray-700 md:text-2xl lg:text-4xl">Experimenta la vida en la finca</h2>
 
           <ul class="gap-10 mt-8 flex flex-col">
                     
@@ -167,14 +167,14 @@
     <div class="relative">
         <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div class="ml-auto lg:col-start-2 lg:max-w-2xl">
-                <p class="text-base font-semibold leading-6 text-indigo-500 uppercase">
-                    Interactive
+                <p class="text-base font-semibold leading-6 text-pink-700 uppercase">
+                    Explore and discover
                 </p>
                 <h4 class="mt-2 text-2xl font-extrabold leading-8 text-gray-900 sm:text-3xl sm:leading-9">
-                    Interactivity between team members is the key of the success.
+                  Relájate con paseos a caballo, saborea batidos tropicales y contempla atardeceres inolvidables.
                 </h4>
                 <p class="mt-4 text-lg leading-6 text-gray-700 ">
-                    Build a simply and powered collaborative space for all your team. Track, share, measure, you have a fully control, it&#x27;s never be simply and efficient.
+                  Aventúrate en la naturaleza cubana: explora la presa en stand-up paddle o a pie, recorre los "Mogotes" en bicicleta o a pie y disfruta de la rica variedad de aves y flora. 
                 </p>
 
 
@@ -183,29 +183,49 @@
             <div class="relative mt-10 lg:-mx-4 relative-20 lg:mt-0 lg:col-start-1">
                 <div class="relative space-y-4">
                     <div class="flex items-end justify-center space-x-4 lg:justify-start">
-                        <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="https://images.unsplash.com/photo-1505846951821-e25bacf2eccd?auto=format&q=75&fit=crop&crop=top&w=1000&h=500" alt="1"/>
-                        <img class="w-40 rounded-lg shadow-lg md:w-64" width="260" src="https://images.unsplash.com/photo-1505846951821-e25bacf2eccd?auto=format&q=75&fit=crop&crop=top&w=1000&h=500" alt="2"/>
+                        <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="/img/activities/5e7164f7-5496-4e24-9885-7278c3a30208.jpg" alt="1"/>
+                        <img class="w-40 rounded-lg shadow-lg md:w-64" width="260" src="/img/activities/5907ff16-7464-4a3d-b4c9-7810084e1dbb.jpg" alt="2"/>
                     </div>
                     <div class="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
-                        <img class="w-24 rounded-lg shadow-lg md:w-40" width="170" src="https://images.unsplash.com/photo-1505846951821-e25bacf2eccd?auto=format&q=75&fit=crop&crop=top&w=1000&h=500" alt="3"/>
-                        <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="https://images.unsplash.com/photo-1505846951821-e25bacf2eccd?auto=format&q=75&fit=crop&crop=top&w=1000&h=500" alt="4"/>
+                        <img class="w-24 rounded-lg shadow-lg md:w-40" width="170" src="/img/nearly/fac2512f-bdb5-49b0-aeab-dc275ffb80c5.jpg" alt="3"/>
+                        <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="/img/nearly/cd466c24-b106-40e9-89ee-5b84c0456de3.jpg" alt="4"/>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<GalleryHome class="py-12 max-h-screen md:max-h-[60vh]" >  </GalleryHome>
 
-   
-  <div class="container flex font-title">
-      <UButton label="Button" />
 
-      <div>
-        <NuxtLink to="/">English</NuxtLink> |
-        <NuxtLink to="/fr">Français</NuxtLink>
+<div class="mx-auto max-w-screen-2xl px-4 md:px-8 py-12">
+    <div class="relative px-4 py-6 overflow-hidden sm:px-6 sm:py-8 lg:p-12 xl:p-16 flex justify-evenly  bg-gray-100 rounded-md">
+        <div> 
+          <h2 class="text-3xl font-title font-display text-black sm:text-4xl">
+            We&#x27;ve got more coming...
+        </h2>
+        <p class="mt-2 max-w-xl text-base text-gray-400">
+            Want to hear from us when we add new actvities? Sign up for our newsletter and we&#x27;ll email you every time we release a new great plan.
+        </p>
+        <form>
+            <div class="mt-6 sm:flex jusitfy-start">
+                <form class="flex flex-col justify-center w-3/4 max-w-sm space-y-3 md:flex-row md:w-full md:space-x-3 md:space-y-0">
+                    <div class=" relative ">
+                        <input type="text" id="&quot;form-subscribe-Subscribe" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-pink-600 focus:border-transparent" placeholder="Email"/>
+                        </div>
+                        <button class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-pink-600 rounded-lg shadow-md hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 focus:ring-offset-pink-200" type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </form>
+        </div>
+            <div class="inset-y-0 right-0 hidden lg:block lg:left-2/3 xl:left-1/2">
+                
+                            <img class="object-cover mx-auto maw-w-30 w-52" src="/logo.svg" alt="casa prima"/>
+                    </div>
+                </div>
+            </div>
 
-        <p>{{ $t('welcome') }}</p>
-        eeste es el home
-      </div>
-    </div>
+
 </template>
