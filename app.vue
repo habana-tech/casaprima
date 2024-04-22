@@ -33,7 +33,7 @@ watch(
 </script>
 
 <template>
-  <div>
+  <div class="bg-white">
 
     <!-- <AppHero> </AppHero> -->
 

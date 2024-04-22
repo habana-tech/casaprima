@@ -10,9 +10,9 @@ const localePath = useLocalePath()
 </script>
 
 <template>
-  <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
+  <div class="bg-white">
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-      <header class="mb-8 flex items-center justify-between border-b py-4 md:mb-12 md:py-8 xl:mb-16">
+      <header class="flex items-center justify-between border-b py-4 md:py-8">
         <!-- logo - start -->
         <a href="/" class="inline-flex items-center gap-2.5 text-2xl font-title text-black md:text-3xl"
           aria-label="logo">
@@ -27,5 +27,5 @@ const localePath = useLocalePath()
 
       </header>
     </div>
-    </div>
+  </div>
 </template>
